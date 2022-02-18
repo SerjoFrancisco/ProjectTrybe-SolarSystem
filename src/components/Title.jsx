@@ -9,11 +9,8 @@ class Title extends React.Component {
     );
   }
 }
-Title.defaultProps = {
-  headline: 'Planetas',
-};
 
 Title.propTypes = {
-  headline: PropTypes.string,
+  headline: PropTypes.string.isRequired,
 };
 export default Title;
