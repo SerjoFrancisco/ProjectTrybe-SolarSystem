@@ -15,7 +15,7 @@ class Missions extends React.Component {
             <div key={ mission.name }>
               <MissionCard
                 name={ mission.name }
-                year={ mission.image }
+                year={ mission.year }
                 country={ mission.country }
                 destination={ mission.destination }
               />
