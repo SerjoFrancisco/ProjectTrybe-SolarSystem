@@ -12,7 +12,7 @@ class Missions extends React.Component {
         </div>
         <div>
           {missions.map((mission) => (
-            <div key={ mission.name }>
+            <div className="missions" key={ mission.name }>
               <MissionCard
                 name={ mission.name }
                 year={ mission.year }
